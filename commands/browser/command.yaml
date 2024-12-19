@@ -1,0 +1,40 @@
+list:
+- command:
+    action: exe
+    exe_path: commands/browser/exe/Run browser.exe
+  voice:
+    sounds:
+    - execute1
+    - execute2
+    - execute3
+  phrases:
+    - открой браузер
+
+- command:
+    action: exe
+    exe_path: commands/browser/exe/Close browser.exe
+  voice:
+    sounds:
+    - execute1
+    - execute2
+    - execute3
+  phrases:
+  - закрой все браузеры
+  - закрой браузер
+  - выключи браузер
+  - убери браузер
+
+- command:
+    action: exe
+    exe_path: commands/browser/exe/Run website.exe
+    exe_args:
+    - http://youtube.com
+  voice:
+    sounds:
+    - execute1
+    - execute2
+    - execute3
+  phrases:
+  - открой ютуб
+  - ютуб
+  - запусти ютуб

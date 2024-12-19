@@ -1,0 +1,59 @@
+2024-12-16 19:45:50,795 [INFO] [app] Команды загружены.
+2024-12-16 19:45:50,795 [INFO] [app] Загруженные команды: [{'command': {'action': 'exe', 'exe_path': 'commands/browser/exe/Run browser.exe'}, 'voice': {'sounds': ['execute1', 'execute2']}, 'phrases': ['открой браузер']}, {'command': {'action': 'exe', 'exe_path': 'commands/browser/exe/Close browser.exe'}, 'voice': {'sounds': ['execute1', 'execute2']}, 'phrases': ['закрой все браузеры', 'закрой браузер', 'выключи браузер', 'убери браузер']}, {'command': {'action': 'exe', 'exe_path': 'commands/browser/exe/Run website.exe', 'exe_args': ['http://youtube.com']}, 'voice': {'sounds': ['execute1', 'execute2']}, 'phrases': ['открой ютуб', 'ютуб', 'запусти ютуб']}, {'command': {'action': 'cli', 'cli_cmd': 'calc'}, 'voice': {'sounds': ['execute1', 'execute2']}, 'phrases': ['включи калькулятор', 'открой калькулятор', 'покажи калькулятор', 'запусти калькулятор', 'калькулятор']}, {'command': {'action': 'cli', 'cli_cmd': 'taskkill', 'cli_args': ['/f', '/im', 'CalculatorApp.exe']}, 'voice': {'sounds': ['execute1', 'execute2']}, 'phrases': ['закрой калькулятор', 'отключи калькулятор', 'выключи калькулятор', 'убери калькулятор']}, {'command': {'action': 'voice'}, 'voice': {'sounds': ['joke1', 'joke2']}, 'phrases': ['расскажи анекдот', 'рассмеши', 'пошути', 'шутка', 'расскажи шутку', 'развесели меня', 'что нибудь смешное', 'подними мне настроение', 'мне скучно', 'хочу шутку', 'хочу анекдот', 'пошути', 'расскажи что нибудь смешное', 'расскажи смешное что нибудь', 'хочу посмеяться']}, {'command': {'action': 'exe', 'exe_path': 'commands/media/exe/ToggleMedia.exe'}, 'voice': {'sounds': ['execute1', 'execute2']}, 'phrases': ['останови воспроизведение', 'останови видео', 'останови музыку', 'поставь на паузу', 'нажми на паузу', 'сними с паузы', 'смотрим дальше', 'продолжи воспроизводить музыку', 'продолжи воспроизведение', 'сними с паузы']}]
+2024-12-16 19:45:50,796 [INFO] [app] Голосовой ассистент запущен...
+2024-12-16 19:46:29,624 [INFO] [player] Воспроизведение случайного приветствия...
+2024-12-16 19:46:29,625 [INFO] [player] Начато воспроизведение файла: ../JarvisSound/WakeWord\atyourservice.wav
+2024-12-16 19:46:31,490 [INFO] [resource_manager] Аудиопоток освобождён.
+2024-12-16 19:46:31,490 [INFO] [player] Файл успешно воспроизведён: ../JarvisSound/WakeWord\atyourservice.wav
+2024-12-16 19:46:32,639 [INFO] [recognizer] Запись команды...
+2024-12-16 19:46:33,971 [INFO] [recognizer] Распознанная команда: калькулятор
+2024-12-16 19:46:33,976 [INFO] [resource_manager] Аудиопоток освобождён.
+2024-12-16 19:46:34,046 [INFO] [app] Получена фраза: калькулятор
+2024-12-16 19:46:34,046 [INFO] [app] Команда отфильтрована: калькулятор
+2024-12-16 19:46:34,046 [INFO] [command] Поиск команды для фразы: калькулятор
+2024-12-16 19:46:34,125 [INFO] [command] Найдена команда: {'command': {'action': 'cli', 'cli_cmd': 'calc'}, 'voice': {'sounds': ['execute1', 'execute2']}, 'phrases': ['включи калькулятор', 'открой калькулятор', 'покажи калькулятор', 'запусти калькулятор', 'калькулятор']} с баллом 100.0
+2024-12-16 19:46:34,125 [INFO] [app] Выполнение команды: {'command': {'action': 'cli', 'cli_cmd': 'calc'}, 'voice': {'sounds': ['execute1', 'execute2']}, 'phrases': ['включи калькулятор', 'открой калькулятор', 'покажи калькулятор', 'запусти калькулятор', 'калькулятор']}
+2024-12-16 19:46:34,126 [INFO] [command] Воспроизведение звука: ..\JarvisSound\execute2.wav
+2024-12-16 19:46:34,126 [INFO] [command] Выполняется команда: calc []
+2024-12-16 19:46:34,126 [INFO] [player] Начато воспроизведение файла: ..\JarvisSound\execute2.wav
+2024-12-16 19:46:35,993 [INFO] [resource_manager] Аудиопоток освобождён.
+2024-12-16 19:46:35,993 [INFO] [player] Файл успешно воспроизведён: ..\JarvisSound\execute2.wav
+2024-12-16 19:46:37,734 [INFO] [player] Воспроизведение случайного приветствия...
+2024-12-16 19:46:37,734 [INFO] [player] Начато воспроизведение файла: ../JarvisSound/WakeWord\atyourservice.wav
+2024-12-16 19:46:39,595 [INFO] [resource_manager] Аудиопоток освобождён.
+2024-12-16 19:46:39,595 [INFO] [player] Файл успешно воспроизведён: ../JarvisSound/WakeWord\atyourservice.wav
+2024-12-16 19:46:40,482 [INFO] [recognizer] Запись команды...
+2024-12-16 19:46:42,567 [INFO] [recognizer] Распознанная команда: закрой калькулятор
+2024-12-16 19:46:42,575 [INFO] [resource_manager] Аудиопоток освобождён.
+2024-12-16 19:46:42,650 [INFO] [app] Получена фраза: закрой калькулятор
+2024-12-16 19:46:42,650 [INFO] [app] Команда отфильтрована: закрой калькулятор
+2024-12-16 19:46:42,650 [INFO] [command] Поиск команды для фразы: закрой калькулятор
+2024-12-16 19:46:42,730 [INFO] [command] Найдена команда: {'command': {'action': 'cli', 'cli_cmd': 'taskkill', 'cli_args': ['/f', '/im', 'CalculatorApp.exe']}, 'voice': {'sounds': ['execute1', 'execute2']}, 'phrases': ['закрой калькулятор', 'отключи калькулятор', 'выключи калькулятор', 'убери калькулятор']} с баллом 100.0
+2024-12-16 19:46:42,730 [INFO] [app] Выполнение команды: {'command': {'action': 'cli', 'cli_cmd': 'taskkill', 'cli_args': ['/f', '/im', 'CalculatorApp.exe']}, 'voice': {'sounds': ['execute1', 'execute2']}, 'phrases': ['закрой калькулятор', 'отключи калькулятор', 'выключи калькулятор', 'убери калькулятор']}
+2024-12-16 19:46:43,454 [INFO] [command] Воспроизведение звука: ..\JarvisSound\execute1.wav
+2024-12-16 19:46:43,454 [INFO] [command] Выполняется команда: taskkill ['/f', '/im', 'CalculatorApp.exe']
+2024-12-16 19:46:43,455 [INFO] [player] Начато воспроизведение файла: ..\JarvisSound\execute1.wav
+2024-12-16 19:46:45,201 [INFO] [resource_manager] Аудиопоток освобождён.
+2024-12-16 19:46:45,201 [INFO] [player] Файл успешно воспроизведён: ..\JarvisSound\execute1.wav
+2024-12-16 19:46:52,260 [INFO] [player] Воспроизведение случайного приветствия...
+2024-12-16 19:46:52,260 [INFO] [player] Начато воспроизведение файла: ../JarvisSound/WakeWord\yessir.wav
+2024-12-16 19:46:53,605 [INFO] [resource_manager] Аудиопоток освобождён.
+2024-12-16 19:46:53,605 [INFO] [player] Файл успешно воспроизведён: ../JarvisSound/WakeWord\yessir.wav
+2024-12-16 19:46:54,455 [INFO] [recognizer] Запись команды...
+2024-12-16 19:46:56,041 [INFO] [recognizer] Распознанная команда: крови ютуб
+2024-12-16 19:46:56,049 [INFO] [resource_manager] Аудиопоток освобождён.
+2024-12-16 19:46:56,120 [INFO] [app] Получена фраза: крови ютуб
+2024-12-16 19:46:56,120 [INFO] [app] Команда отфильтрована: крови ютуб
+2024-12-16 19:46:56,120 [INFO] [command] Поиск команды для фразы: крови ютуб
+2024-12-16 19:46:56,198 [INFO] [command] Найдена команда: {'command': {'action': 'exe', 'exe_path': 'commands/browser/exe/Run website.exe', 'exe_args': ['http://youtube.com']}, 'voice': {'sounds': ['execute1', 'execute2']}, 'phrases': ['открой ютуб', 'ютуб', 'запусти ютуб']} с баллом 50.0
+2024-12-16 19:46:56,198 [INFO] [app] Выполнение команды: {'command': {'action': 'exe', 'exe_path': 'commands/browser/exe/Run website.exe', 'exe_args': ['http://youtube.com']}, 'voice': {'sounds': ['execute1', 'execute2']}, 'phrases': ['открой ютуб', 'ютуб', 'запусти ютуб']}
+2024-12-16 19:46:56,199 [INFO] [command] Запуск исполняемого файла: D:\dev\New\commands\browser\exe\Run website.exe с аргументами ['http://youtube.com']
+2024-12-16 19:46:56,552 [INFO] [command] Исполняемый файл успешно запущен.
+2024-12-16 19:46:56,552 [INFO] [command] Воспроизведение звука: ..\JarvisSound\execute2.wav
+2024-12-16 19:46:56,552 [INFO] [player] Начато воспроизведение файла: ..\JarvisSound\execute2.wav
+2024-12-16 19:46:58,417 [INFO] [resource_manager] Аудиопоток освобождён.
+2024-12-16 19:46:58,417 [INFO] [player] Файл успешно воспроизведён: ..\JarvisSound\execute2.wav
+2024-12-16 19:50:44,844 [INFO] [resource_manager] Аудиопоток освобождён.
+2024-12-16 19:50:44,845 [INFO] [resource_manager] Porcupine освобождён.
+2024-12-16 19:50:44,845 [INFO] [app] Ассистент остановлен пользователем.
+2024-12-16 19:50:44,880 [INFO] [app] Очистка памяти завершена.

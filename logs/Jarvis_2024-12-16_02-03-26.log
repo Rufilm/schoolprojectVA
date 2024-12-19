@@ -1,0 +1,43 @@
+2024-12-16 02:03:26,177 [INFO] [app] Команды загружены.
+2024-12-16 02:03:26,178 [INFO] [app] Загруженные команды: [{'command': {'action': 'exe', 'exe_path': 'commands/browser/exe/Run browser.exe'}, 'voice': {'sounds': ['execute1', 'execute2']}, 'phrases': ['открой браузер']}, {'command': {'action': 'exe', 'exe_path': 'commands/browser/exe/Close browser.exe'}, 'voice': {'sounds': ['execute1', 'execute2']}, 'phrases': ['закрой все браузеры', 'закрой браузер', 'выключи браузер', 'убери браузер']}, {'command': {'action': 'exe', 'exe_path': 'commands/browser/exe/Run website.exe', 'exe_args': ['http://youtube.com']}, 'voice': {'sounds': ['execute1', 'execute2']}, 'phrases': ['открой ютуб', 'ютуб', 'запусти ютуб']}, {'command': {'action': 'cli', 'cli_cmd': 'calc'}, 'voice': {'sounds': ['execute1', 'execute2']}, 'phrases': ['включи калькулятор', 'открой калькулятор', 'покажи калькулятор', 'запусти калькулятор', 'калькулятор']}, {'command': {'action': 'cli', 'cli_cmd': 'taskkill', 'cli_args': ['/f', '/im', 'CalculatorApp.exe']}, 'voice': {'sounds': ['execute1', 'execute2']}, 'phrases': ['закрой калькулятор', 'отключи калькулятор', 'выключи калькулятор', 'убери калькулятор']}, {'command': {'action': 'voice'}, 'voice': {'sounds': ['joke1', 'joke2']}, 'phrases': ['расскажи анекдот', 'рассмеши', 'пошути', 'шутка', 'расскажи шутку', 'развесели меня', 'что нибудь смешное', 'подними мне настроение', 'мне скучно', 'хочу шутку', 'хочу анекдот', 'пошути', 'расскажи что нибудь смешное', 'расскажи смешное что нибудь', 'хочу посмеяться']}, {'command': {'action': 'exe', 'exe_path': 'commands/media/exe/StopMedia.exe'}, 'voice': {'sounds': ['execute1', 'execute2']}, 'phrases': ['останови воспроизведение', 'останови видео', 'останови музыку', 'поставь на паузу', 'нажми на паузу']}]
+2024-12-16 02:03:26,178 [INFO] [app] Голосовой ассистент запущен...
+2024-12-16 02:03:30,109 [INFO] [player] Воспроизведение случайного приветствия...
+2024-12-16 02:03:30,110 [INFO] [player] Начато воспроизведение файла: ../JarvisSound/WakeWord\yessir.wav
+2024-12-16 02:03:31,422 [INFO] [resource_manager] Аудиопоток освобождён.
+2024-12-16 02:03:31,422 [INFO] [player] Файл успешно воспроизведён: ../JarvisSound/WakeWord\yessir.wav
+2024-12-16 02:03:32,339 [INFO] [recognizer] Запись команды...
+2024-12-16 02:03:34,711 [INFO] [recognizer] Распознанная команда: поставь на паузу
+2024-12-16 02:03:34,719 [INFO] [resource_manager] Аудиопоток освобождён.
+2024-12-16 02:03:34,800 [INFO] [app] Получена фраза: поставь на паузу
+2024-12-16 02:03:34,800 [INFO] [app] Команда отфильтрована: поставь на паузу
+2024-12-16 02:03:34,801 [INFO] [command] Поиск команды для фразы: поставь на паузу
+2024-12-16 02:03:34,875 [INFO] [command] Найдена команда: {'command': {'action': 'exe', 'exe_path': 'commands/media/exe/StopMedia.exe'}, 'voice': {'sounds': ['execute1', 'execute2']}, 'phrases': ['останови воспроизведение', 'останови видео', 'останови музыку', 'поставь на паузу', 'нажми на паузу']} с баллом 100.0
+2024-12-16 02:03:34,875 [INFO] [app] Выполнение команды: {'command': {'action': 'exe', 'exe_path': 'commands/media/exe/StopMedia.exe'}, 'voice': {'sounds': ['execute1', 'execute2']}, 'phrases': ['останови воспроизведение', 'останови видео', 'останови музыку', 'поставь на паузу', 'нажми на паузу']}
+2024-12-16 02:03:34,876 [INFO] [command] Запуск исполняемого файла: D:\dev\New\commands\media\exe\StopMedia.exe с аргументами []
+2024-12-16 02:03:35,028 [INFO] [command] Исполняемый файл успешно запущен.
+2024-12-16 02:03:35,028 [INFO] [command] Воспроизведение звука: ..\JarvisSound\execute2.wav
+2024-12-16 02:03:35,028 [INFO] [player] Начато воспроизведение файла: ..\JarvisSound\execute2.wav
+2024-12-16 02:03:36,872 [INFO] [resource_manager] Аудиопоток освобождён.
+2024-12-16 02:03:36,872 [INFO] [player] Файл успешно воспроизведён: ..\JarvisSound\execute2.wav
+2024-12-16 02:03:38,899 [INFO] [player] Воспроизведение случайного приветствия...
+2024-12-16 02:03:38,900 [INFO] [player] Начато воспроизведение файла: ../JarvisSound/WakeWord\yessir.wav
+2024-12-16 02:03:40,200 [INFO] [resource_manager] Аудиопоток освобождён.
+2024-12-16 02:03:40,200 [INFO] [player] Файл успешно воспроизведён: ../JarvisSound/WakeWord\yessir.wav
+2024-12-16 02:03:41,098 [INFO] [recognizer] Запись команды...
+2024-12-16 02:03:42,686 [INFO] [recognizer] Распознанная команда: на паузу
+2024-12-16 02:03:42,695 [INFO] [resource_manager] Аудиопоток освобождён.
+2024-12-16 02:03:42,768 [INFO] [app] Получена фраза: на паузу
+2024-12-16 02:03:42,769 [INFO] [app] Команда отфильтрована: на паузу
+2024-12-16 02:03:42,769 [INFO] [command] Поиск команды для фразы: на паузу
+2024-12-16 02:03:42,841 [INFO] [command] Найдена команда: {'command': {'action': 'exe', 'exe_path': 'commands/media/exe/StopMedia.exe'}, 'voice': {'sounds': ['execute1', 'execute2']}, 'phrases': ['останови воспроизведение', 'останови видео', 'останови музыку', 'поставь на паузу', 'нажми на паузу']} с баллом 66.66666666666666
+2024-12-16 02:03:42,841 [INFO] [app] Выполнение команды: {'command': {'action': 'exe', 'exe_path': 'commands/media/exe/StopMedia.exe'}, 'voice': {'sounds': ['execute1', 'execute2']}, 'phrases': ['останови воспроизведение', 'останови видео', 'останови музыку', 'поставь на паузу', 'нажми на паузу']}
+2024-12-16 02:03:42,841 [INFO] [command] Запуск исполняемого файла: D:\dev\New\commands\media\exe\StopMedia.exe с аргументами []
+2024-12-16 02:03:43,020 [INFO] [command] Исполняемый файл успешно запущен.
+2024-12-16 02:03:43,020 [INFO] [command] Воспроизведение звука: ..\JarvisSound\execute1.wav
+2024-12-16 02:03:43,020 [INFO] [player] Начато воспроизведение файла: ..\JarvisSound\execute1.wav
+2024-12-16 02:03:44,726 [INFO] [resource_manager] Аудиопоток освобождён.
+2024-12-16 02:03:44,726 [INFO] [player] Файл успешно воспроизведён: ..\JarvisSound\execute1.wav
+2024-12-16 02:03:46,103 [INFO] [resource_manager] Аудиопоток освобождён.
+2024-12-16 02:03:46,103 [INFO] [resource_manager] Porcupine освобождён.
+2024-12-16 02:03:46,103 [INFO] [app] Ассистент остановлен пользователем.
+2024-12-16 02:03:46,132 [INFO] [app] Очистка памяти завершена.

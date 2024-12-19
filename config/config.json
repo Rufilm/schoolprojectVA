@@ -1,0 +1,29 @@
+{
+  "vosk_model_path" : "../vosk_models",
+  "hello_phrases_path" : "../JarvisSound/WakeWord",
+  "access_key" : "/uaQA30GkW7xqlXz8VuG5Pqu7LozSDvVOnMtX3kZIMf3df2G2FmKcQ==",
+  "keywords_path" : "../pv_activate_commands/Jarvis.ppn",
+  "commands_path" : "../commands",
+  "sound_directory" : "../JarvisSound",
+
+  "assistant_tbr_phrases" : [
+    "джарвис",
+    "сэр",
+    "слушаю сэр",
+    "всегда к услугам",
+    "произнеси",
+    "ответь",
+    "покажи",
+    "скажи",
+    "давай",
+    "да сэр",
+    "к вашим услугам сэр",
+    "всегда к вашим услугам сэр",
+    "запрос выполнен сэр",
+    "выполнен сэр",
+    "есть",
+    "загружаю сэр",
+    "очень тонкое замечание сэр"
+  ]
+
+}

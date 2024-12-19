@@ -1,0 +1,17 @@
+PyAudio
+DateTime
+setuptools
+numpy
+pydub
+scipy
+Wave
+typing
+psutil
+PyYAML
+RapidFuzz
+pathlib
+scikit-learn
+fuzzywuzzy
+vosk
+noisereduce
+pvporcupine
